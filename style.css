@@ -1,0 +1,151 @@
+
+html{
+    width: 100%;
+    font-size: 16px;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #42C2FF;
+    color: white;
+}
+
+#header a {
+    color: white;
+}
+
+#hotel_logo{
+    width: 3.5rem;
+    
+}
+
+#menu_bar {
+    width: 1.5rem;
+    height: 1.5rem;
+    color: black;
+    display: none;
+}
+
+#header ul li {
+    display: inline;
+    margin-right: 2rem;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+h1 {
+    text-transform:uppercase;
+}
+
+
+#front_landing {
+    width: 98vw;
+    background-image: url('images/beach-sea-coast-water-nature-ocean-762392-pxhere.com.jpg');
+    background-size: cover;
+    height: 90vh;
+    position: relative;
+}
+
+#reserve_form {
+    background-color: #2C3333;
+    display: inline-block;
+    width: fit-content;
+    padding: 1%;
+    border-radius: 15px;
+    position:absolute;
+    bottom: 5rem;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+#reserve_form input {
+    height: 2%;
+}
+
+#amenities_section {
+    text-align: center
+}
+
+#amenities {
+    width: 95%;
+    height: 50vh;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    margin-top: 5rem;
+}
+
+.amenity {
+    width: 30%;
+    height: 55%;
+    margin: 1.5%;
+    padding: .5%;
+    border: 1px solid black;
+    border-radius: 8%;
+    position: relative;
+    
+}
+
+.amenity p {
+    margin-top: 15%;
+}
+
+.amenity img{
+    max-width: 100%;
+
+}
+
+#testimony_section {
+    text-align: center;
+    background-color: #2C3333;
+    color:white;
+}
+
+#testimony_section img {
+    max-width: 30%;
+}
+
+.slide {
+    display: flex;
+    flex-direction: row;
+    padding: 2%;
+    height: 60vh;
+}
+
+.slide_text {
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.slide_text p {
+    font-size: 1.35rem;
+}
+
+.fa-star{
+    display: inline-block;
+    text-shadow: 0 0 3px white;
+}
+
+
+.checked {
+    color: orange;
+}
+
+#footer {
+    text-align: center;
+    background-color: #42C2FF;
+    color: white;
+    padding: 1%;
+}

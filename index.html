@@ -1,0 +1,123 @@
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+
+  <body>
+    <div id="header">
+      <i id="menu_bar" class="fa fa-bars"></i>
+      <img id="hotel_logo" src="images/hotel_logo.webp" />
+      <ul>
+        <li><a href="">Book</a></li>
+        <li><a href="">Locations</a></li>
+        <li><a href="">Deals</a></li>
+      </ul>
+      <ul>
+        <li><a href="">Login</a></li>
+        <li><a href="">Signup</a></li>
+      </ul>
+    </div>
+    <div id="body">
+      <div id="front_landing">
+        <form id="reserve_form" action="">
+          <!-- <input
+            type="text"
+            class="reserve_box"
+            placeholder="Enter Destination"
+            required
+          /> -->
+          <input
+            type="text"
+            class="reserve_box"
+            placeholder="Check In"
+            min="1997-01-01"
+            max="2030-12-31"
+            onfocus="(this.type='date')"
+            onblur="(this.type='text')"
+            required
+          />
+          <input
+            type="text"
+            class="reserve_box"
+            placeholder="Check Out"
+            min="1997-01-01"
+            max="2030-12-31"
+            onfocus="(this.type='date')"
+            onblur="(this.type='text')"
+            required
+          />
+          <input type="number" class="reserve_box" placeholder="Guest Count" min="1" required />
+          <input type="number" class="reserve_box" placeholder="Room Count" min="1" required  />
+          <input type="submit" value="Book" id="reserve_submit" required />
+        </form>
+      </div>
+
+      <div id="amenities_section">
+        <h1>Amenities</h1>
+        <div id="amenities">
+          <div class="amenity">
+            <img src="images/wifi.jpg" />
+            <p>Enjoy unlimited high-speed wifi</p>
+          </div>
+          <div class="amenity">
+            <img src="images/jacuzzi.jpg" />
+            <p>Relax and relieve stress in our warm Jacuzzis</p>
+          </div>
+          <div class="amenity">
+            <img src="images/breakfast.jpg" />
+            <p>No need to go out for breakfast with our signature breakfast</p>
+          </div>
+          <div class="amenity">
+            <img src="images/pool.jpg" />
+            <p>Indoor and outdoor pools</p>
+          </div>
+          <div class="amenity">
+            <img src="images/fitness_center.jpg" />
+            <p>Workout in our state-of-the-art fitness center</p>
+          </div>
+        </div>
+        </div>
+      <div id="testimony_section">
+        <div id="slider">
+          <h1>What our guests say about their stay</h1>
+          <div class="slide">
+            <img src="images/customer_service.jpg" />
+            <div class="slide_text">
+              <h2>My idea of a 5-star experience</h2>
+              <div id="star_rating">
+                <span class="fa fa-star checked bo"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+                <span class="fa fa-star checked"></span>
+              </div>
+
+              <p>
+                "Here is what I have to say about this amazing hotel. As soon as
+                I walked in I was greeted with a beautiful smile from the front
+                desk. The pace at which we were check in and directed to our
+                rooms was just what I needed after a long day of business.Well
+                done"
+              </p>
+              <p>Joe Schmoe on Jan 5, 2023</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="footer">
+      <h1>The Hotel</h1>
+      <h2>3567 Blue Everest Road Columbus,OH 49999</h2>
+      <p>Phone Number:923-555-5555</p>
+      <ul>
+        <li>Privacy Policy</li>
+      </ul>
+    </div>
+  </body>
+</html>
